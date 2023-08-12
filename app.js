@@ -36,7 +36,7 @@ ctx.canvas.height = window.innerHeight;
 	
 let coord = {x:0 , y:0};
 
-let paint = true;
+let paint = false;
 	
 function getPosition(event){
 coord.x = event.clientX - canvas.offsetLeft;
