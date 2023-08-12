@@ -36,6 +36,7 @@ ctx.canvas.height = window.innerHeight;
 	
 let coord = {x:0 , y:0};
 
+// False to not draw till mouse is clicked
 let paint = false;
 	
 function getPosition(event){
